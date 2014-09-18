@@ -19,9 +19,6 @@
         "default_title": "Press Plus Blocker"
     },
     "options_page": "options.html",
-    "omnibox": {
-        "keyword": "Press Plus Blocker"
-    },
     "content_scripts": [
         {
             "matches": [
@@ -39,7 +36,6 @@
         }
     ],
     "permissions": [
-        "tabs",
         "http://*/*",
         "https://*/*"
     ]
