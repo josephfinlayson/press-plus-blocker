@@ -1,6 +1,6 @@
 {
     "name": "Press Plus Blocker",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "manifest_version": 2,
     "description": "Blocks press plus from the onion and other sites!",
     "icons": {
