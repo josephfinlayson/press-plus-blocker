@@ -1,6 +1,6 @@
 {
     "name": "Press Plus Blocker",
-    "version": "0.0.2",
+    "version": "0.0.5",
     "manifest_version": 2,
     "description": "Blocks press plus from The Onion and other media websites!",
     "icons": {
@@ -18,15 +18,11 @@
         },
         "default_title": "Press Plus Blocker"
     },
-    "options_page": "options.html",
     "content_scripts": [
         {
             "matches": [
                 "http://*/*",
                 "https://*/*"
-            ],
-            "css": [
-                "styles/main.css"
             ],
             "js": [
                 "scripts/contentscript.js"
